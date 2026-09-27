@@ -1,0 +1,6 @@
+x=input(" numar 1 -> ")
+u=int(x)
+y=input(" numar 2 -> ")
+i=int(y)
+c=u/i
+print(c)

@@ -1,0 +1,20 @@
+import os
+import subprocess
+print("")
+print("[1] adunare")
+print("[2] scadere")
+print("[3] inmultire")
+print("[4] impartire")
+print("")
+print(" ")
+nr=input(" -> ")
+
+if nr == "1":
+      subprocess.run(["python", "mate-adunare"])
+elif nr == "2":
+      subprocess.run(["python", "mate-scadere"])
+elif nr == "3":
+      subprocess.run(["python", "mate-inmultire"])
+elif nr == "4":
+      subprocess.run(["python", "mate-impartire"])
+
